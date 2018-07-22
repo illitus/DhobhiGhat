@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "629281455955",
+    "firebase_url": "https://dhobhi-ghat.firebaseio.com",
+    "project_id": "dhobhi-ghat",
+    "storage_bucket": "dhobhi-ghat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629281455955:android:dce3963f228c51a8",
+        "android_client_info": {
+          "package_name": "com.example.sarve.dhobhighat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629281455955-o53c6k7pspn5k1k0m5l3m9edt179gpha.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "629281455955-llq923bitij13c16ivk02csocmgco587.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "629281455955-499vribqpnf881blhfunjo2qqsi1mpp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarve.dhobhighat",
+            "certificate_hash": "ad3ca667b580e7a127095b8c44490d4411a33a21"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwxViSpQ7ydnwPBiXRwSSwYkFBkcWBYqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629281455955-o53c6k7pspn5k1k0m5l3m9edt179gpha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

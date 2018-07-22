@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:padding="6dp"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/best"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="#DhobhiGhat\nnow in your town"
+                    android:textColor="#000"
+                    android:textSize="26dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="Our Services"
+                android:textSize="25dp"
+                android:paddingLeft="12dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000"
+                android:paddingBottom="12dp"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:layout_gravity="center"
+                android:paddingBottom="12dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#fff"
+                    android:background="#fff"
+                    android:src="@drawable/dryclean"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dry Clean"
+                    android:textSize="26dp"
+                    android:textColor="#fff"
+                    android:gravity="center|right"
+                    android:paddingRight="15dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:layout_gravity="center"
+                android:paddingBottom="12dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#fff"
+                    android:background="#fff"
+                    android:src="@drawable/express"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Express Laundry"
+                    android:textSize="26dp"
+                    android:textColor="#fff"
+                    android:gravity="center|right"
+                    android:paddingRight="15dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:layout_gravity="center"
+                android:paddingBottom="12dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#fff"
+                    android:background="#fff"
+                    android:src="@drawable/folded_washing"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wash and Iron Prime"
+                    android:textSize="26dp"
+                    android:textColor="#fff"
+                    android:gravity="center|right"
+                    android:paddingRight="15dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:layout_gravity="center"
+                android:paddingBottom="12dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#fff"
+                    android:background="#fff"
+                    android:src="@drawable/wash_iron"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wash and Iron by weight"
+                    android:textSize="26dp"
+                    android:textColor="#fff"
+                    android:gravity="center|right"
+                    android:paddingRight="15dp"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
